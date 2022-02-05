@@ -111,7 +111,7 @@ systemctl restart nginx
 
 [测试图片](https://api.zhengjianting.com/picture?name=测试图片)
 
-<div align="center"> <img src="https://api.zhengjianting.com/picture?name=测试图片"/> </div>
+![测试图片](https://api.zhengjianting.com/picture?name=测试图片)
 
 
 
