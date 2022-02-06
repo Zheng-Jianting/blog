@@ -10,7 +10,7 @@ import java.io.IOException;
 
 @RestController
 public class PictureController {
-     private final String PICTURE_DIR = "/root/.api/picture/";
+    private final String PICTURE_DIR = "/root/.api/picture/";
 
     @GetMapping(value = "/picture", produces = MediaType.IMAGE_JPEG_VALUE)
     byte[] picture(String name) {
